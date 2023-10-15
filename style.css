@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+    font-style: italic;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.color-container{
+    background-color: orchid;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0,0.5);
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #fc0404;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ff0055;
+}
+
+footer {
+    margin-top: 4%;
+    color: gold;
+    text-align: center;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    background-color: black;
+  }
